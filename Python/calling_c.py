@@ -1,13 +1,9 @@
 import ctypes
-import os
 
 library_path = "../C_prgm/mylib.dll"
 
 # Load the shared library into ctypes
-if os.name == 'nt':
-    mylib = ctypes.CDLL(library_path)
-else:
-    mylib = ctypes.CDLL(library_path)
+mylib = ctypes.CDLL(library_path)
 
 # Call the hello_from_c function
 mylib.hello_from_c()

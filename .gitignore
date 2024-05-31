@@ -9,6 +9,7 @@
 
 **/*.dll
 **/*.exe
+**/*.o
 
 # Local History for Visual Studio Code
 **/.history/
