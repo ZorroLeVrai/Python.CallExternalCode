@@ -1,7 +1,7 @@
 import ctypes
 import os
 
-library_path = "C_prgm/mylib.dll"
+library_path = "../C_prgm/mylib.dll"
 
 # Load the shared library into ctypes
 if os.name == 'nt':

@@ -3,7 +3,7 @@ from time import process_time
 
 NB_TERM = 100_000_000
 
-library_path = "C_prgm/mylib.dll"
+library_path = "../C_prgm/mylib.dll"
 mylib = ctypes.CDLL(library_path)
 
 mylib.sum_inverse.argtypes = [ctypes.c_long]
