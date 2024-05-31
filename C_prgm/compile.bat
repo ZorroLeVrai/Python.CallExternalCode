@@ -1,0 +1,1 @@
+gcc -shared -fPIC mylib.c -o mylib.dll
